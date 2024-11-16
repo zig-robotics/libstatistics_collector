@@ -1,0 +1,34 @@
+.{
+    .name = "libstatistics_collector",
+    .version = "1.7.3",
+    .dependencies = .{
+        .libstatistics_collector = .{
+            .url = "https://github.com/ros-tooling/libstatistics_collector/archive/tags/1.7.3.tar.gz", // Jazzy
+            .hash = "12203a1ab8d9b78227df96458b76532bb9c4b0877c71b746287b9b6a16adc7d46c03",
+        },
+        .rcl = .{
+            .url = "https://github.com/zig-robotics/rcl/archive/383a5c1f60d976ec04028af5481f8165e0b054a2.tar.gz", // Jazzy
+            .hash = "1220236c52ec8bffb6b1254d2548a9f0a76bc4728936223c9a19cd515a58f04613ca",
+        },
+        .rcutils = .{
+            .url = "https://github.com/zig-robotics/rcutils/archive/11f322f8cda5fd94e8cb13d6ba11e12f2b0b9b54.tar.gz",
+            .hash = "12201cd3c0d93eb979cda167fd019ccc7a9a2a4aac69db5aebe688ec6a6f304d9471",
+        },
+        .rosidl = .{
+            .url = "https://github.com/zig-robotics/rosidl/archive/bd2c9989e84097804e8219c1086656b7822fd038.tar.gz",
+            .hash = "12202020e4e77eaa3edc2206b411005aeef0d393481a653bb509484fb76301553ab3",
+        },
+        .rcpputils = .{
+            .url = "https://github.com/zig-robotics/rcpputils/archive/bfe7a3ae1ad8910145dbd33e98b0063be01359d1.tar.gz", // Jazzy
+            .hash = "1220248f4fb42a3e6c2281152d47d38c817e3bebb9548de5cb4d16bd934e1f1048d7",
+        },
+        .rcl_interfaces = .{
+            .url = "https://github.com/zig-robotics/rcl_interfaces/archive/dc93ae80936c36a598c7b8735da54db6bf76feff.tar.gz",
+            .hash = "12209967568a4e7dc36390bb76ef15b89b8c7bc2c2029dd91d32681611c03e098e5d",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
